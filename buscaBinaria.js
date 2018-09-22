@@ -5,7 +5,7 @@ function buscaBinaria (vetor, valor, inicio=0, fim=null) {
   if(fim === null) {
     fim = vetor.length - 1 
   }else if(inicio > fim) {
-    return 'O valor não foi encontrado na lista'
+    return 'O valor não foi encontrado na lista.'
   }
 
   let meio = Math.floor((inicio + fim)/2)
